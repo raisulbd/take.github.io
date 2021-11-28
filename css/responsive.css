@@ -1,0 +1,101 @@
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) { 
+  .top_banner_oly {
+  padding: 25px 0;
+}
+
+.top_titel {
+  margin-top: 60px;
+}
+
+.top_titel h1 {
+  font-size: 40px;
+}
+
+.top_titel p {
+  
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+
+.start_som_con {
+  margin-top: 10%;
+}
+
+.start_som_con h2 {
+  
+  font-size: 30px;
+
+}
+
+
+.our_clients .wish_list i {
+  margin-left: 90%;
+  
+}
+
+.five_part {
+  
+  padding: 50px 0;
+}
+
+.five_part_con h3 {
+  
+  margin-top: 50px;
+}
+
+}
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+   .top_banner_oly {
+  padding: 25px 0;
+}
+
+.top_titel {
+  margin-top: 60px;
+}
+
+.start_som_con {
+  margin-top:5%;
+}
+
+.our_clients .wish_list i {
+  margin-left: 95%;
+  
+}
+
+}
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.top_banner_oly {
+  padding: 25px 0;
+}
+
+.top_titel {
+  margin-top: 60px;
+}
+
+.start_som_con {
+  margin-top:1%;
+}
+
+.our_clients .wish_list i {
+  margin-left: 95%;
+  
+}
+
+
+
+ }
+
+/*// `xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+}
+
+/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }
